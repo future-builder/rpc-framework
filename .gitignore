@@ -1,0 +1,9 @@
+/.idea/
+/docs/
+# 忽略target, test目录
+/rpc-framework-simple/target/
+/rpc-framework-simple/src/test/
+
+/rpc-framework-common/target/
+/rpc-framework-common/src/test/
+
