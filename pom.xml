@@ -11,6 +11,9 @@
     <modules>
         <module>rpc-framework-simple</module>
         <module>rpc-framework-common</module>
+        <module>hello-service-api</module>
+        <module>test-server</module>
+        <module>test-client</module>
     </modules>
 
     <properties>
@@ -18,6 +21,8 @@
         <maven.compiler.target>8</maven.compiler.target>
 
         <!--dependencies version-control -->
+        <netty.version>4.1.12.Final</netty.version>
+        <guava.version>30.1.1-jre</guava.version>
         <!-- log -->
         <slf4j.version>1.7.25</slf4j.version>
         <logback.version>1.2.3</logback.version>
@@ -30,6 +35,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.22</version>
+        </dependency>
+        <!-- guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${guava.version}</version>
         </dependency>
         <!-- log -->
         <dependency>

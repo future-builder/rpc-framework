@@ -7,3 +7,12 @@
 /rpc-framework-common/target/
 /rpc-framework-common/src/test/
 
+/rpc-framework-common/target/
+/rpc-framework-common/src/test/
+
+/test-client/target/
+/test-client/src/test/
+
+/test-server/target/
+/test-server/src/test/
+
